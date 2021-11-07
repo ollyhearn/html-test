@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+* {
+  padding-bottom: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+body {
+  background: #334756;
+  color: #F0A500;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #082032;
+  margin: 0;
+  margin-top: -10px;
+  padding-top: 10px;
+  top: 0;
+  height: 75px;
+  width: 100%;
+  box-shadow: 0 5px 10px 0 #000000;
+  border-radius: 15px;
+}
+
+header h2, header nav {
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  color: #f7eede;
+  font-size: 16px;
+  height: 100px;
+  margin-top: 15vh;
+}
+
+.logo {
+  display: flex;
+  padding: 0;
+  margin-right: auto;
+  margin-left 0;
+  width: 50px;
+  height: auto;
+  padding-right: 25px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  width: 75px;
+  height: auto;
+  padding-right: 0px;
+  transition: 0.5s;
+}
+
+header .button {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #082032;
+    position: sticky;
+    user-select: none;
+    transition: 0.5s;
+    color: #F0A500;
+    text-decoration: none;
+}
+
+.button:visited {
+    color: #F0A500;
+}
+
+.button:active {
+    color: #F0A500;
+}
+
+.button:hover {
+  border: 2px solid #F0A500;
+  transition: 0.5s;
+}
+
+.button:active {
+  background-color: #334756;
+  transition: 0s;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15em;
+  flex-flow: row;
+  grid-gap: 10em;
+
+}
+
+.text {
+  color: white;
+  margin-right: 100px;
+  width: 40%;
+}
+
+.highlight {
+  color: #F0A500;
+}
+
+.pic {
+  width: 500px;
+  height: auto;
+}

@@ -1,0 +1,197 @@
+/* ========== Menu ==========*/
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 1em 8em;
+  background: #161a20;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+}
+#logo {
+  width: 50px;
+  transition: 0.3s;
+}
+#logo:hover {
+  transform: scale(1.2);
+}
+nav {
+  justify-content: space-between;
+  /* width: 60%; */
+  width: max-content;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em 2em;
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  transition: 0.3s;
+
+}
+nav a:hover {
+  border: 1px solid #f05454;
+}
+
+/* ========== Hero Section ==========*/
+section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* border: solid 2px white; */
+  margin-bottom: 200px;
+}
+
+#home {
+  justify-content: space-around;
+}
+
+#section-1 {
+  justify-content: flex-start;
+}
+
+#section-2 {
+  flex-flow: column;
+}
+.s21 {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.s22 {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+#section-3 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* align-content: flex-start; */
+}
+
+#section-4 {
+  flex-flow: column wrap;
+}
+
+#section-5 {
+  justify-content: space-around;
+}
+
+#section-6 {
+  flex-wrap: wrap;
+}
+
+#section-7 {
+  flex-direction: column-reverse;
+}
+
+#section-8 {
+  flex-direction: row-reverse;
+}
+.gradient-card, .gradient-card1, .gradient-card2, .gradient-card3, .gradient-card4, .gradient-card5, .gradient-card6, .gradient-card7, .gradient-card8, .gradient-card9, .gradient-card10, .gradient-card11, .gradient-card12, .gradient-card13, .gradient-card13sp {
+  background: linear-gradient(45deg, #0d05fc, #fc05f4);
+  border-radius: 30px;
+  padding: 50px 80px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.new-string {
+  width: 100%;
+}
+
+.new-column {
+  height: 100%
+}
+
+.gradient-card1 {
+  background: linear-gradient(45deg, #fc0505, #fc8005);
+}
+
+.gradient-card2 {
+  background: linear-gradient(45deg, #05fc91, #05ebfc);
+  align-self: flex-end;
+}
+
+.gradient-card3 {
+  background: linear-gradient(45deg, #389FD5, #48B872);
+  align-self: center;
+}
+
+.gradient-card4 {
+  background: linear-gradient(45deg, #AC4BBD, #F04747);
+  align-self: flex-end;
+}
+
+.gradient-card5 {
+  background: linear-gradient(45deg, #828282, #222831);
+  align-self: flex-end;
+}
+
+.gradient-card6 {
+  background: linear-gradient(45deg, #FEEFB3, #FEBE4E);
+  align-self: flex-start;
+  transition: 0.5s;
+}
+
+.gradient-card6:hover {
+  align-self: flex-end;
+  transition: 0.5s;
+}
+
+.gradient-card7 {
+  background: linear-gradient(45deg, #252839, #C865FF);
+  display: flex;
+  align-self: flex-end;
+  transition: 0.5s;
+}
+.gradient-card7:hover {
+  flex-grow: 2;
+  flex-flow: row;
+  transition: 0.5s;
+}
+
+.gradient-card8 {
+  background: linear-gradient(45deg, #876754, #2D130D);
+  margin-bottom: 150px;
+}
+
+.gradient-card9 {
+  background: linear-gradient(45deg, #25DBCA, #65AADD);
+}
+
+.gradient-card10 {
+  background: linear-gradient(45deg, #2D3DD3, #F0DB13);
+}
+
+.gradient-card10 + .gradient-card10 {
+  align-self: flex-end;
+}
+
+.gradient-card11 {
+  background: linear-gradient(45deg, #282E33, #25DBCA);
+}
+
+.gradient-card12 {
+  background: linear-gradient(45deg, #D3D8BE, #B44CD2);
+}
+
+.gradient-card13 {
+  background: linear-gradient(45deg, #282E33, #08EEF6);
+}
+
+.gradient-card13sp {
+  background: linear-gradient(45deg, #282E33, #7E937E);
+  order: -1;
+}
+/* ========== Footer ==========*/
+footer {
+  background: #161a20;
+  padding: 3em;
+}

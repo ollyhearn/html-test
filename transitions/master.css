@@ -1,0 +1,142 @@
+p, span, ol, ul{
+  color: #fff;
+  font-family: sans-serif;
+
+}
+
+h3 {
+  color: #808077;
+  font-family: "Oswald";
+}
+
+input {
+  background-color: #3D3D3D;
+  border-radius: 15px;
+  border-color: #f77f00;
+  color: white;
+  font-family: sans-serif;
+  width: auto;
+}
+
+button {
+  margin-top: 15px;
+  padding: 7px;
+  background-color: #3D3D3D;
+  border-radius: 15px;
+  border-color: #f77f00;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.content-container, .webdev, .pl, .login{
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+  padding-top: 30px;
+  padding: 20px;
+  border-color: #f77f00;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  box-shadow: 6px 16px 0px 3px rgba(0, 0, 0, 1);
+  transition: 1s;
+  /* background-color: white; */
+
+}
+
+.content-container:hover {
+  transform: translate(-15px,-15px);
+  transition: 1s;
+}
+
+.webdev {
+  width: 20%;
+}
+
+.pl {
+  width: 35%;
+}
+
+.login {
+  width: 180px;
+  margin-bottom: 50px;
+}
+
+.webdev:hover {
+  transform: translate(-15px,-15px);
+  transition: 1s;
+}
+
+.pl:hover {
+  transform: translate(-15px,-15px);
+  transition: 1s;
+}
+
+.login:hover {
+  transform: translate(-15px,-15px);
+  transition: 1s;
+}
+@keyframes move {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+h1, h2 {
+  text-decoration: underline;
+  font-family: "Oswald";
+  color: #fff;
+}
+
+.orange {
+  color: #f77f00;
+}
+
+div > div > p {
+  color: #6E7F80;
+}
+
+.content-container > p {
+  background-color: #4E4E4E;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* div > p > span {
+  color: #000000;
+} */
+
+img.resize {
+  width: 75px;
+  height: auto;
+}
+
+.git {
+  background-color: #4E4E4E;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+a.sandy-one {
+  border: 2px solid #AEA8D3;
+  color: #FFF;
+}
+a.sandy-one:after {
+  border: 3px solid #AEA8D3;
+  opacity: 0;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+a.sandy-one:hover:after {
+  height: 120% !important;
+  opacity: 1;
+  color: #FFF;

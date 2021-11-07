@@ -1,0 +1,339 @@
+header {
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 1em 8em;
+  background: #161a20;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+  height: 10vh;
+}
+#logo {
+  width: 50px;
+  transition: 0.3s;
+}
+#logo:hover {
+  transform: scale(1.2);
+}
+nav {
+  justify-content: space-between;
+  /* width: 60%; */
+  width: max-content;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em 2em;
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  transition: 0.3s;
+
+}
+nav a:hover {
+  border: 1px solid #f05454;
+}
+
+
+section {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 200px;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #2D3540, #828282);
+  border-radius: 30px;
+  width: 20%;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.cardpic {
+  width: 30%;
+  height: auto;
+}
+
+.cardtitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 38px;
+  color: #B1E4F9;
+}
+
+.cardtext {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+#left {
+  text-align: left;
+}
+
+#center {
+  text-align: center;
+}
+
+#right {
+  text-align: right;
+}
+
+
+#arts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2D333C;
+  padding: 50px;
+  /* margin: 5em; */
+  width: 20em;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.article:hover {
+  transition: 0.5s;
+  transform: translate(0px,-15px);
+  background: linear-gradient(45deg, #0d05fc, #fc05f4);
+}
+
+/* .artgrad {
+  background: linear-gradient(45deg, #0d05fc, #fc05f4);
+  width: 100%;
+  opacity: 0;
+}
+
+.artgrad:hover {
+  opacity: 1;
+} */
+
+.artnum {
+  font-family: 'Roboto', sans-serif;
+  font-size: 125px;
+  color: #383D46;
+  opacity: 0.2;
+}
+
+.arttitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 42px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.arttext {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.artbutton {
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+}
+
+.artbutton:hover {
+  transition: 0.5s;
+  box-shadow: 0px 4px 12px rgb(0, 0, 0);
+  transform: translate(0px,-5px);
+}
+
+#b1 {
+  background: #E91E63;
+}
+
+#b2 {
+  background: #019D79;
+}
+
+#b3 {
+  background: #2196F3;
+}
+
+
+.goodcard {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: #2D333C;
+  padding: 50px;
+  width: 20em;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.goodimg {
+  width: 300px;
+  height: auto;
+
+}
+
+.goodtitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 42px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.goodcol {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  width: 80%;
+}
+
+#sqred {
+    width: 20px;
+    height: 20px;
+    background: #f9525a;
+    border: 1px solid #fff;
+}
+
+#sqwhite {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #ffffff;
+}
+
+#sqblack {
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border: 1px solid #ffffff;
+}
+
+.goodbtn {
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background: #6dfc00;
+  margin-top: 50px;
+}
+.goodbtn:hover {
+  transition: 0.5s;
+  box-shadow: 0px 4px 12px rgb(0, 0, 0);
+  transform: translate(0px,-5px);
+}
+
+.herocard {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 70%;
+  height: 70%;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #0d05fc, #076B9F);
+  padding: 100px;
+}
+
+.herocard:hover > .heropic {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.herocard:hover > div > .herotitle, .herocard:hover > div > .herotext, .herocard:hover > div > .herobtn{
+  opacity: 1;
+  transition: 1s;
+}
+
+.herotitle {
+  width: 60%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 42px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.herotext {
+  width: 60%;
+  opacity: 0;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+.heropic {
+  width: 60%;
+  height: auto;
+  transform: translate(-300px, 0px);
+  transition: 0.5s;
+  /* box-shadow: 0px 4px 12px rgb(0, 0, 0); */
+}
+.herobtn {
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(45deg, #f9525a, #fc05f4);
+  margin-top: 50px;
+  opacity: 0;
+}
+.herobtn:hover {
+  transition: 0.5s;
+  box-shadow: 0px 4px 12px rgb(0, 0, 0);
+  transform: translate(0px,-5px);
+}
+
+
+
+#news {
+  flex-flow: column;
+}
+
+.newsarts {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.newstitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 52px;
+  color: white;
+}
+
+.newcard {
+  display: flex;
+  background: #2D333C;
+  border-radius: 30px;
+  flex-flow: column;
+  padding: 75px;
+}
+
+.newcardtitle {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+.newbtn {
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 100px;
+  font-weight: bold;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(45deg, #f9525a, #fc05f4);
+  margin-top: 50px;
+}
